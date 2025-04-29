@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>staubli_tx2_60l_gz_sim</name>
+  <version>0.0.1</version>
+  <description>Staubli TX2-60l simulation package for Gazebo and ROS 2</description>
+
+  <maintainer email="clement.coudoin@univ-tlse3.fr">Coudoin</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>ros_gz</exec_depend>
+  
+  <export>
+  </export>
+</package>
